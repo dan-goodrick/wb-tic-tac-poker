@@ -33,7 +33,6 @@ const lines = [
 
 const play = (boxNum) => {
   let player = document.querySelector("#player");
-
   let box = document.getElementById(boxNum);
   if (!board[boxNum]) {
     box.innerText = player.innerText;
